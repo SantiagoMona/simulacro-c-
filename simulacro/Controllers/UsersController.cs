@@ -14,5 +14,8 @@ namespace simulacroid.Controllers
         public async Task<IActionResult> Index(){
             return View(await _context.Users.ToListAsync());
         }
+        public async Task<IActionResult> Details(int id){
+            return View(await _context.Users.FindAsync(id));
+        }
     }
 }

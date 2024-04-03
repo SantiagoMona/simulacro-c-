@@ -16,5 +16,8 @@ namespace simulacro.Controllers
         {
             return View(await _dbContext.Products.ToListAsync());
         }
+        public async Task<IActionResult> Details(int id){
+            return View(await _dbContext.Products.FindAsync(id));
+        }
     }
 }

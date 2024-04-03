@@ -1,0 +1,22 @@
+<table class="table table-striped">
+   <thead>
+        <th># id</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Correo</th>
+        <th>Cumpleaños</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.LastName</td>
+            <td>@Model.Email</td>
+            <td>@Model.BrithDate</td>
+        </tr>
+    </tbody>
+</table>
+
+<a asp-controller="Users" asp-action="Index"> 
+    <button class="btn btn-success" type="submit">volver</button>
+</a>

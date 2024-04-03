@@ -1,1 +1,39 @@
-<h1>holaaaaaaaaaaaa desde products</h1>
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>Listado De Productos.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Code in <cite title="Source Title">Simulaco.</cite>
+  </figcaption>
+</figure>
+<table class="table table-striped">
+    <thead>
+        <th># id</th>
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Direccion</th>
+        <th>Numero</th>
+        <th>Fecha De Expiracion</th>
+        <th>Acciones</th>
+    </thead>
+    @foreach (var item in Model){
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.Price</td>
+            <td>@item.Amount</td>
+            <td>@item.Address</td>
+            <td>@item.Phone</td>
+            <td>@item.ExpirationDate</td>
+            <td> 
+                <a class="btn btn-info" asp-action="Details" asp-controller="Products" asp-route-id="">Editar</a>
+                <a class="btn btn-warning" asp-action="Details" asp-controller="Products" asp-route-id="@item.Id">Ver Detalles</a>
+                <a class="btn btn-danger" asp-action="Details" asp-controller="Products" asp-route-id="">Eliminar</a>
+
+            </td>
+        </tr>
+    };
+</table>
