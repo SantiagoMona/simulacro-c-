@@ -8,7 +8,7 @@ namespace simulacro.Models
             public Int64 Price { get; set; }
             public Int64 Amount { get; set; }
             public string Address { get; set; }
-            public Int64 Phone{ get; set; }
+            public string Phone{ get; set; }
             public DateTime ExpirationDate { get; set; }
         }
     

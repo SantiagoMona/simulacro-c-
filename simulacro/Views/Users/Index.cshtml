@@ -23,9 +23,9 @@
             <td>@item.Email</td>
             <td>@item.BrithDate</td>
             <td> 
-                <a class="btn btn-info" asp-action="Details" asp-controller="Users" asp-route-id="">Editar</a>
+                <a class="btn btn-info" asp-action="Create" asp-controller="Users">Crear</a>
                 <a class="btn btn-warning" asp-action="Details" asp-controller="Users" asp-route-id="@item.Id">Ver Detalles</a>
-                <a class="btn btn-danger" asp-action="Details" asp-controller="Users" asp-route-id="">Eliminar</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-controller="Users" asp-route-id="@item.Id" method="post">Eliminar</a>
 
             </td>
         </tr>

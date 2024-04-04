@@ -1,0 +1,58 @@
+@model Product// ESTO ES SUPER IMPORTANTE
+ 
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>Crearas Un Nuevo Producto.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Code in <cite title="Source Title">Simulaco.</cite>
+  </figcaption>
+</figure>
+
+<div class="row">
+    <div class="col-md-4">
+        <form aps-action="Create" method="post">
+            <div class="mb-3">
+                <label for="" class="form-label">Id</label>
+                <input  class="form-control" asp-for="Id">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Nombre</label>
+                <input  class="form-control" asp-for="Name">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Descripcion</label>
+                <input  class="form-control" asp-for="Description">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Precio</label>
+                <input  class="form-control" asp-for="Price">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Cantidad</label>
+                <input  class="form-control" asp-for="Amount">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Direccion</label>
+                <input  class="form-control" asp-for="Address">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Numero</label>
+                <input  class="form-control" asp-for="Phone">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">fecha de vencimiento</label>
+                <input  class="form-control" asp-for="ExpirationDate">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</div>

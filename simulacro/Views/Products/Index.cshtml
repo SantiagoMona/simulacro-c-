@@ -6,6 +6,7 @@
     Code in <cite title="Source Title">Simulaco.</cite>
   </figcaption>
 </figure>
+
 <table class="table table-striped">
     <thead>
         <th># id</th>
@@ -29,9 +30,9 @@
             <td>@item.Phone</td>
             <td>@item.ExpirationDate</td>
             <td> 
-                <a class="btn btn-info" asp-action="Details" asp-controller="Products" asp-route-id="">Editar</a>
+                <a class="btn btn-info" asp-action="Create" asp-controller="Products">Crear</a>
                 <a class="btn btn-warning" asp-action="Details" asp-controller="Products" asp-route-id="@item.Id">Ver Detalles</a>
-                <a class="btn btn-danger" asp-action="Details" asp-controller="Products" asp-route-id="">Eliminar</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-controller="Products" asp-route-id="@item.Id" method="post">Eliminar</a>
 
             </td>
         </tr>

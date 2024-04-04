@@ -1,0 +1,39 @@
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>Destalles De Productos.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Code in <cite title="Source Title">Simulaco.</cite>
+  </figcaption>
+</figure>
+
+<table>
+        <thead>
+        <th># id</th>
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Direccion</th>
+        <th>Numero</th>
+        <th>Fecha De Expiracion</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Id</td> 
+            <td>@Model.Name</td> 
+            <td>@Model.Description</td> 
+            <td>@Model.Price</td> 
+            <td>@Model.Amount</td> 
+            <td>@Model.Address</td>
+            <td>@Model.Phone</td>
+            <td>@Model.ExpirationDate</td>
+             
+
+        </tr>
+
+    </tbody>
+</table>
+<a asp-controller="Products" asp-action="Index"> 
+    <button class="btn btn-success" type="submit">volver</button>
+</a>
