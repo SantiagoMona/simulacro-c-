@@ -9,71 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = simulacro
 build_property.RootNamespace = simulacro
-build_property.ProjectDir = /home/riwip5-001/Desktop/C# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/
+build_property.ProjectDir = /home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/riwip5-001/Desktop/C# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro
+build_property.MSBuildProjectDirectory = /home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Home/Index.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Home/Privacy.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Products/Create.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Products/Delete.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Products/Details.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Products/Index.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Shared/Error.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Users/Create.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Users/Delete.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Users/details.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Users/details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvZGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Users/Index.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/_ViewImports.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/_ViewStart.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-001/Desktop/C\# CON BASES DE DATOS MONA/Simulacro/simulacro-c-/simulacro/Views/Shared/_Layout.cshtml]
+[/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6z2vfovt1d

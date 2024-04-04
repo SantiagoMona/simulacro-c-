@@ -1,0 +1,42 @@
+@model User;
+
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>Editaras a Usuario.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Code in <cite title="Source Title">Simulaco.</cite>
+  </figcaption>
+</figure>
+
+<div class="row">
+    <div class="col-md-4">
+        <form aps-action="Edit" method="post">
+            <div class="mb-3">
+                <label for="" class="form-label">Cedula</label>
+                <input  class="form-control" asp-for="Id">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Nombre</label>
+                <input  class="form-control" asp-for="Name">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Apellido</label>
+                <input  class="form-control" asp-for="LastName">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Correo</label>
+                <input  class="form-control" asp-for="Email">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Fecha De nacimiento</label>
+                <input  class="form-control" asp-for="BrithDate">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</div>

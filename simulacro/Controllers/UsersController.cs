@@ -12,8 +12,15 @@ namespace simulacroid.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index(){
-            return View(await _context.Users.ToListAsync());
+        public async Task<IActionResult> Index(string buscar){
+            var usuarios = from usuario in _context.Users select usuario;
+
+            if (!string.IsNullOrEmpty(buscar))
+            {
+                usuarios = usuarios.Where(s=>s.Name!.Contains(buscar) || s.LastName!.Contains(buscar));
+            }
+
+            return View(await usuarios.ToListAsync());
         }
         public async Task<IActionResult> Details(int id){
             return View(await _context.Users.FindAsync(id));
@@ -29,7 +36,7 @@ namespace simulacroid.Controllers
         {
             return View();
         }
-
+    
         // ACCIONES PARA REGISTRAR EN LA BASE DE DATOS
          [HttpPost]
         public IActionResult Create(User u)// DE EL MODELO USER SE LE ASIGNA TODO ALA VARIABLE "u"
@@ -40,6 +47,19 @@ namespace simulacroid.Controllers
 
             return RedirectToAction(nameof(Index));//REDIRECCIONAMOS ALA PAGINA PRINCIPAL
 
+        }
+
+        //editar 
+        public async Task<IActionResult> Edit(int? id)
+        {
+            return View(await _context.Users.FirstOrDefaultAsync(m=>m.Id == id));
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(User u)
+        {
+            _context.Users.Update(u);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -13,9 +13,15 @@ namespace simulacro.Controllers
         {
             _dbContext = dbContext;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar)
         {
-            return View(await _dbContext.Products.ToListAsync());
+            var productos = from producto in _dbContext.Products select producto;
+            if (!string.IsNullOrEmpty(buscar))
+            {
+                productos=productos.Where(s=> s.Name!.Contains(buscar));
+            }
+
+            return View(await productos.ToListAsync());
         }
         public async Task<IActionResult> Details(int id){
             return View(await _dbContext.Products.FindAsync(id));
