@@ -12,6 +12,7 @@ namespace simulacroid.Controllers
         {
             _context = context;
         }
+        ///////////////////// LISTAR Y BUSCAR /////////////////////
         public async Task<IActionResult> Index(string buscar){
             var usuarios = from usuario in _context.Users select usuario;
 
@@ -22,9 +23,13 @@ namespace simulacroid.Controllers
 
             return View(await usuarios.ToListAsync());
         }
+        ///////////////////// DETALLES /////////////////////
         public async Task<IActionResult> Details(int id){
             return View(await _context.Users.FindAsync(id));
+
         }
+
+        ///////////////////// ELIMINAR /////////////////////
         public async Task<IActionResult> Delete(int? id){
             var user = await _context.Users.FindAsync(id);
            
@@ -32,6 +37,7 @@ namespace simulacroid.Controllers
             await _context.SaveChangesAsync();
             return View();
         }
+        ///////////////////// CREAR /////////////////////
         public IActionResult Create()
         {
             return View();
@@ -49,7 +55,7 @@ namespace simulacroid.Controllers
 
         }
 
-        //editar 
+        ///////////////////// EDITAR /////////////////////
         public async Task<IActionResult> Edit(int? id)
         {
             return View(await _context.Users.FirstOrDefaultAsync(m=>m.Id == id));
@@ -59,7 +65,7 @@ namespace simulacroid.Controllers
         {
             _context.Users.Update(u);
             _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
     }
 }

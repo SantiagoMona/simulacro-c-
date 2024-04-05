@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/simulacro.csproj": {}
+    "/home/riwip5-001/Desktop/C# CON BASES DE DATOS MONA/simulacro-c-/simulacro/simulacro.csproj": {}
   },
   "projects": {
-    "/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/simulacro.csproj": {
+    "/home/riwip5-001/Desktop/C# CON BASES DE DATOS MONA/simulacro-c-/simulacro/simulacro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/simulacro.csproj",
+        "projectUniqueName": "/home/riwip5-001/Desktop/C# CON BASES DE DATOS MONA/simulacro-c-/simulacro/simulacro.csproj",
         "projectName": "simulacro",
-        "projectPath": "/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/simulacro.csproj",
-        "packagesPath": "/home/riwip5-034/.nuget/packages/",
-        "outputPath": "/home/riwip5-034/Desktop/SANTIAGO_MONA_BEDOYA/simulacro-c-/simulacro/obj/",
+        "projectPath": "/home/riwip5-001/Desktop/C# CON BASES DE DATOS MONA/simulacro-c-/simulacro/simulacro.csproj",
+        "packagesPath": "/home/riwip5-001/.nuget/packages/",
+        "outputPath": "/home/riwip5-001/Desktop/C# CON BASES DE DATOS MONA/simulacro-c-/simulacro/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/riwip5-034/.nuget/NuGet/NuGet.Config"
+          "/home/riwip5-001/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

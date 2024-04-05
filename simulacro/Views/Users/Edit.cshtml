@@ -11,32 +11,31 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form aps-action="Edit" method="post">
-            <div class="mb-3">
-                <label for="" class="form-label">Cedula</label>
-                <input  class="form-control" asp-for="Id">
-            </div>
+        <form aps-action="Edit" asp-controller="Users">
 
             <div class="mb-3">
                 <label for="" class="form-label">Nombre</label>
-                <input  class="form-control" asp-for="Name">
+                <input  class="form-control" asp-for="@Model.Name" >
             </div>
 
             <div class="mb-3">
                 <label for="" class="form-label">Apellido</label>
-                <input  class="form-control" asp-for="LastName">
+                <input  class="form-control" asp-for="@Model.LastName">
             </div>
 
             <div class="mb-3">
                 <label for="" class="form-label">Correo</label>
-                <input  class="form-control" asp-for="Email">
+                <input  class="form-control" asp-for="@Model.Email" >
             </div>
 
             <div class="mb-3">
                 <label for="" class="form-label">Fecha De nacimiento</label>
-                <input  class="form-control" asp-for="BrithDate">
+                <input  class="form-control" asp-for="@Model.BrithDate">
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </div>
+    <a asp-controller="Users" asp-action="Index"> 
+        <button class="btn btn-success mt-5" type="submit">volver</button>
+    </a>
 </div>
